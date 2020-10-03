@@ -856,14 +856,14 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 </tbody>
 </table>
-<p>In <em>edit</em> mode objects and links can be added, removed or edited into the patch.</p>
-<p>You can add objects in a patch by first creating an empty box with <code>n</code> or by double clicking and type an object name in the text editor.</p>
+<p>En mode <em>édition</em>, les objets et liens peuvent être ajoutés, supprimés ou modifiés dans le patch.</p>
+<p>Vous pouvez des objets dans un patch en créant d'abord une boite vide avec <code>n</code> ou en double cliquant puis en tapant le nom de l'objet dans la zone de text.</p>
 <p><img alt="Object box popup" src="./img/object_box_popup.png" class="centered" width=500px /></p>
 <blockquote>
-<p>Please see the list of <a href="#objects-list">availaible objects</a>.</p>
+<p>Veuillez regarder la liste des <a href="#objects-list">objets disponibles.</a>.</p>
 </blockquote>
 <blockquote>
-<p>Vous pouvez aussi utilisé les <a href="#shortcuts">raccourcis</a> pour instancier les objets graphiques plus facilement.</p>
+<p>Vous pouvez aussi utiliser les <a href="#shortcuts">raccourcis</a> pour instancier les objets graphiques plus facilement.</p>
 </blockquote>
 <h3 id="play-mode">mode jeu</h3>
 <table>
@@ -908,14 +908,14 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <blockquote>
 <p>Please refers to the <a href="https://github.com/Musicoll/Kiwi/">github repository</a> to get more informations.</p>
 </blockquote>
-<p class="page" id="collaborate"></p><h1>Collaborate</h1>
-<p>In this section we will describe how one can join a patch and collaborate with other users. Once you are logged in, you can access the remote documents from the document browser window.</p>
+<p class="page" id="collaborate"></p><h1>Collaboration</h1>
+<p>Dans cette section, nous allons décrire comment rejoindre un patch en ligne et collaborer avec d'autres utilisateurs. Une fois que vous êtes connecté, vous pouvez accéder aux documents distants depuis la fenêtre de l'explorateur de documents.</p>
 <p><img title="first patch" src="./img/document_browser.png" height="500" class="centered"></p>
-<p>As you can see the window displays a list of documents accessible online. They can be access by anyone connected to the same server. You can download, delete, upload, rename, duplicate patches from this window by right clicking on an item. Sorting documents using various criteria is also possible.</p>
-<p>Double click on a document to join an online session and start collaborating with other users. You can click on the top left icon of the patcher to show the users that are currently editing or playing with the patch.</p>
+<p>Comme vous pouvez le voir, la fenêtre liste les documents accessibles en ligne. Ils peuvent être accéder par tous les utilisateurs connectés au même serveur. Vous pouvez télécharger, supprimer, renommer, dupliquer les patches depuis cette fenêtre en faisant un clic droit sur un élément. Il est également possible de trier les documents selon différents critères.</p>
+<p>Un double clic sur un document permet de rejoindre une session en ligne et démarrer une collaboration avec d'autres utilisateurs. Vous pouvez cliquer sur l'icône en haut à gauche du patch pour voir tous les utilisateurs qui éditent ou jouent le patch.</p>
 <p><img alt="user list popup" src="./img/patcher_connected_user_list_popup.png" width="250">
 <img alt="FM Synth collaborate" src="./img/FM_synth_collab.png" width="500"></p>
-<p>Objects currently selected by other users are highlighted in <span class="inline-block orange">orange</span>, whereas your own selection is shown in <span class="inline-block blue">blue</span>.</p>
+<p>Les objets actuellement sélectionnés par les autres utilisateurs sont surlignés en <span class="inline-block orange">orange</span>, alors que votre propre sélection est affichée en <span class="inline-block blue">bleu</span>.</p>
 <p>You can now edit and/or play the patch as you will with the others in realtime. Every modification you make in the structure of the patch will automatically be synced between peers and saved on the server.</p>
 <p>On the other hand, when you play with the patch, its state is not shared with the others. Indeed the execution of the patch stay local so you can control parameters independently and isolate or customize audio rendering.</p>
 <table>
@@ -941,15 +941,15 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <h2 id="help-patches">Help patches</h2>
 <p>To see the help of an object, select it in a patch, then right-click on it and click in the help option. It will open the corresponding help file.</p>
 <p>A list of help patches describing how each object works is provided in the documentation accessible from the main application menu <code>Help/Objects</code>. Sometimes help patches gather several objects that are functionally linked, for instance <em>gate</em> and <em>switch</em> or <em>gate~</em> and <em>switch~</em>.</p>
-<p class="page" id="objects-list"></p><h1>Objects list</h1>
-<p>There is different kind of objects in Kiwi.</p>
+<p class="page" id="objects-list"></p><h1>Liste des objets</h1>
+<p>Il y a différents sortes d'objets dans Kiwi.</p>
 <p><img alt="Kiwi Objects" src="./img/object_typology.png" width=400px class="centered" /></p>
 <p>Voici la liste des objets disponibles :</p>
 <h3 id="patching">Patching</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 <th style="text-align:center">Alias</th>
 <th style="text-align:center">Shortcut</th>
@@ -958,31 +958,31 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <tbody>
 <tr>
 <td><strong>newbox</strong></td>
-<td>Empty new box</td>
+<td>Nouvelle boîte vide</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>n</code></td>
 </tr>
 <tr>
 <td><strong>errorbox</strong></td>
-<td>Error box (when an object is invalid)</td>
+<td>Boîte d'erreur (quand un objet est invalide)</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>send</strong></td>
-<td>Send message to matching receive object</td>
+<td>Envoi un message à un objet receveur correspondant</td>
 <td style="text-align:center"><em>s</em></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>receive</strong></td>
-<td>Receive messages from a sender bound to the same name</td>
+<td>Reçoit un message d'un objet envoi associé au même nom</td>
 <td style="text-align:center"><em>r</em></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>mtof</strong></td>
-<td>Convert midi notes to frequencies</td>
+<td>Calcul la fréquence correspondant aux notes midi</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
@@ -1018,7 +1018,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>print</strong></td>
-<td>Print messages into Kiwi console</td>
+<td>Ecrit des messages dans la console Kiwi</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
@@ -1363,8 +1363,8 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tbody>
 </table>
 <p class="page" id="examples"></p><h1>Examples</h1>
-<p>A set of examples is provided in the Kiwi documentation. To explore them, simply go to the main software menu <code>Help/Examples</code>.</p>
-<p>Each example aims at taking you through the creation of a specific audio processing or exploring a certain aspect of Kiwi :</p>
+<p>Un ensemble d'exemples est fourni avec la documentation de Kiwi. Pour les explorer, aller dans le menu principal <code>Help/Examples</code>.</p>
+<p>Chaque exemple vous guide dans l'exploration de différents aspects de Kiwi :</p>
 <table>
 <thead>
 <tr>
