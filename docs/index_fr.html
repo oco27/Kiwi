@@ -899,14 +899,14 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <h3 id="login">Login</h3>
 <p>To connect to an existing user account, click on <strong>login</strong> in the <strong>Account</strong> menu. A login window shows up. Enter your email address or username and your password.</p>
 <h3 id="password-reset">Password Reset</h3>
-<p>If you forgot your password, you can reset it using your email address by clicking on the button <strong>Forgot password</strong>.</p>
+<p>Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser en utilisant votre adresse mail en clickant sur le bouton <strong>Forgot password</strong> (oubli du mot de passe).</p>
 <p><img alt="reset password" src="./img/auth_token_reset_password.png" width="600px" class="centered"/></p>
-<p>You will receive an email containing a token to be passed with your new password to reset it.</p>
-<h3 id="network-settings">Network Settings</h3>
+<p>Vous allez recevoir un email contenant le jeton à fournir avec votre nouveau mot de passe pour le réinitialiser.</p>
+<h3 id="network-settings">Paramètres réseau</h3>
 <p><img alt="Network Settings" src="./img/network_settings.png" width="400px" class="centered"/></p>
-<p>You can access the network settings by pressing <code>cmd</code>/<code>ctrl</code> + <code>,</code> or via the <code>Settings</code> menu. There is option to connect to another server or on different ports. Most users don&#39;t need to make changes here but it could be usefull if you want to run your own Kiwi server.</p>
+<p>Vous pouvez accéder aux paramètres réseau en appuyant sur <code>cmd</code>/<code>ctrl</code> + <code>,</code> ou via le menu <code>Settings</code>. Il est possible de se connecter à un autre serveur ou sur un port différent. La plupart des utilisateurs n'ont pas besoin de modifier ces paramètres. Cela est notamment nécessaire quand vous exécutez votre propre serveur Kiwi.</p>
 <blockquote>
-<p>Please refers to the <a href="https://github.com/Musicoll/Kiwi/">github repository</a> to get more informations.</p>
+<p>Merci de vous référer au <a href="https://github.com/Musicoll/Kiwi/">dépot github</a> pour plus d'informations.</p>
 </blockquote>
 <p class="page" id="collaborate"></p><h1>Collaboration</h1>
 <p>Dans cette section, nous allons décrire comment rejoindre un patch en ligne et collaborer avec d'autres utilisateurs. Une fois que vous êtes connecté, vous pouvez accéder aux documents distants depuis la fenêtre de l'explorateur de documents.</p>
@@ -916,13 +916,13 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <p><img alt="user list popup" src="./img/patcher_connected_user_list_popup.png" width="250">
 <img alt="FM Synth collaborate" src="./img/FM_synth_collab.png" width="500"></p>
 <p>Les objets actuellement sélectionnés par les autres utilisateurs sont surlignés en <span class="inline-block orange">orange</span>, alors que votre propre sélection est affichée en <span class="inline-block blue">bleu</span>.</p>
-<p>You can now edit and/or play the patch as you will with the others in realtime. Every modification you make in the structure of the patch will automatically be synced between peers and saved on the server.</p>
-<p>On the other hand, when you play with the patch, its state is not shared with the others. Indeed the execution of the patch stay local so you can control parameters independently and isolate or customize audio rendering.</p>
+<p>Vous pouvez éditer ou jouer le patch comme vous le souhaitez avec les autres en temps réel. Chaque modification que vous faites dans la structure du patch sera automatiquement synchronisé avec les autres utilisateurs connectés sur ce patch et sauvegardées sur le serveur.</p>
+<p>A l'inverse, quand vous jouer le patch, son état n'est pas partagé avec les autres utilisateurs. L'exécution d'un patch reste locale. Vous pouvez ainsi controller les paramètres indépendamment et isoler ou modifier le rendu audio.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">User A</th>
-<th style="text-align:center">User B</th>
+<th style="text-align:center">Utilisateur A</th>
+<th style="text-align:center">Utilisateur B</th>
 </tr>
 </thead>
 <tbody>
@@ -932,15 +932,15 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 </tbody>
 </table>
-<p>If you want to share some data of the patch with other users or synchronize GUI objects, you can do it via a specific object of the language called a <strong>hub</strong> that broadcasts messages to every users connected to the same document through the server.</p>
+<p>Si vous souhaitez partager des doonées d'un patch avec d'autres utilisateurs ou pour synchroniser des objets graphiques, vous pouvez le faire via un objet specific appelé un <strong>hub</strong> qui diffuse des messages à tous les utilisateurs connectés à un même document à travers le serveur.</p>
 <p><img alt="Using the kiwi hub object" src="./img/hub_server_communication.png" width="600" class="centered"/></p>
 <blockquote>
-<p>Open the <strong>hub</strong> help patch in the Help menu for more infos</p>
+<p>Ouvrez le patch d'aide <strong>hub</strong> dans le menu Help (Aide) pour plus d'informations</p>
 </blockquote>
-<p class="page" id="help-patches"></p><h1>Objects</h1>
-<h2 id="help-patches">Help patches</h2>
-<p>To see the help of an object, select it in a patch, then right-click on it and click in the help option. It will open the corresponding help file.</p>
-<p>A list of help patches describing how each object works is provided in the documentation accessible from the main application menu <code>Help/Objects</code>. Sometimes help patches gather several objects that are functionally linked, for instance <em>gate</em> and <em>switch</em> or <em>gate~</em> and <em>switch~</em>.</p>
+<p class="page" id="help-patches"></p><h1>Objets</h1>
+<h2 id="help-patches">Patchs d'aide</h2>
+<p>Pour voir l'aide sur un objet, sélectionner le dans le patch puis clic-droit sur l'objet et choisissez l'option Help (Aide). Cela ouvrira l'aide correspondante.</p>
+<p>Une liste des patchs d'aides décrivant chaque objet est fourni dans la documentation. Ils sont accessibles depuis le menu principal de l'application <code>Help/Objects</code>. Quelquefois, les patchs d'aide réunissent différents objets liés fonctionnellement, par exemple <em>gate</em> et <em>switch</em> ou <em>gate~</em> et <em>switch~</em>.</p>
 <p class="page" id="objects-list"></p><h1>Liste des objets</h1>
 <p>Il y a différents sortes d'objets dans Kiwi.</p>
 <p><img alt="Kiwi Objects" src="./img/object_typology.png" width=400px class="centered" /></p>
