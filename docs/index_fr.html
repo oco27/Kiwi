@@ -831,23 +831,23 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <p>La Console Kiwi affiche les messages en provenance de l'application ou des patches chargés. Vous pouvez accéder à la console depuis le menu <code>Window/Console</code> ou en tempant <code>cmd</code> + <code>k</code> sous Mac ou <code>ctrl</code> + <code>k</code> sous Windows ou Linux. Des messages peuvent être envoyé depuis un patche vers la console grâce à l'objet <em>print</em>.</p>
 <p>La fenêtre du navigateur de document permet de voir, créer ou rejoindre des patches distant hébergés en ligne. Pour voir les documents hébergées vous devez d'abord vous logguer.</p>
 <blockquote>
-<p>See the <a href="#login">Register/login</a> section</p>
+<p>Voir la section <a href="#login">Register/login</a>.</p>
 </blockquote>
 <p class="page" id="patching"></p><h1>Patching</h1>
-<p>In Kiwi you can either join a shared patch using the Document Browser window or open a local patch from your machine. In this section we will show how to open and manipulate a local patch. Instructions on how to collaborate over a patch are given <a href="#collaborate">here</a>.</p>
+<p>Dans Kiwi, vous pouvez soit ouvrir un patch partagé en utilisant le navigateur de documents soit ouvrir un patch local sur votre machine. Dans cette section, nous allons vous montrer comment ouvrir et modifier un patch local. Les instructions sur la modification colloborative d'un patch sont <a href="#collaborate">ici</a>.</p>
 <p><img title="Risset Bell" src="./img/RissetBell.png" width="800px"></p>
 <blockquote>
-<p><a href="http://www.alainbonardi.net/songes/modelisation_eng.htm">Risset&#39;s bell modelling</a>, you can find the patch in the examples.</p>
+<p><a href="http://www.alainbonardi.net/songes/modelisation_eng.htm">Risset&#39;s bell modelling</a>, vous pouvez trouver ce patch dans les exemples.</p>
 </blockquote>
-<p>The patcher above is taken from the Kiwi examples. As you can see, a patch is a set of objects each one carrying out an operation. Control or signal data is sent between objects using links. Grey connections are used to send messages (numbers, strings, lists, bang ect...) whereas dark connections send signals, always from the top to the bottom.</p>
-<p>To create a new patcher, press <code>cmd</code>/<code>ctrl</code> + <code>n</code> or go to <code>File/New Patcher</code>.</p>
-<p>A patch can either be in <em>edit</em> or in <em>play</em> mode. To switch between <em>edit</em> and <em>play</em> mode, click on the lock button
-<img title="lock" src="./img/locked.png" height=22px/> or press <code>cmd</code> + <code>e</code> on Mac (<code>ctrl</code> + <code>e</code> for linux or windows users).</p>
-<h3 id="edit-mode">edit mode</h3>
+<p>Le patch ci-dessus est issue des exemples fournis avec Kiwi. Comme vous pouvez le voir, un patch est un ensemble d'objets qui chacun produise une opération. Les commandes ou les signaux sonores sont envoyés entre les objets grâce aux liens. Les liens gris sont utilisés pour envoyés des messages (nombres, texte, listes, bang, etc...) alors que les liens noirs envoient les signaux, toujours du haut vers le bas (les signaux entrent dans un objet par les connecteurs du haut et ressortent par les connecteurs du bas).</p>
+<p>Pour créer un patch, appuyez sur <code>cmd</code>/<code>ctrl</code> + <code>n</code> ou allez dans <code>File/New Patcher</code>.</p>
+<p>Un patch peut être soit en mode <em>édition (edit)</em> soit en mode <em>jeu (play)</em>. Pour basculer entre les modes <em>édition (edit)</em> et <em>jeu (play)</em>, cliquer sur le bouton cadenas (lock)
+<img title="lock" src="./img/locked.png" height=22px/> ou appuyer sur <code>cmd</code> + <code>e</code> sur Mac (<code>ctrl</code> + <code>e</code> pour linux ou windows).</p>
+<h3 id="edit-mode">Mode édition (edit)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">edit mode</th>
+<th style="text-align:center">mode édition (edit)</th>
 </tr>
 </thead>
 <tbody>
@@ -869,7 +869,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <table>
 <thead>
 <tr>
-<th style="text-align:center">mode jeu</th>
+<th style="text-align:center">mode jeu (play)</th>
 </tr>
 </thead>
 <tbody>
@@ -891,15 +891,15 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <blockquote>
 <p>Vous pouvez accéder aux paramètres audio dans le menu <code>Options/Audio Settings</code>.</p>
 </blockquote>
-<p class="page" id="login"></p><h1>Register/Login</h1>
-<p>To save and access online documents and start collaborating, you first need to login. There is two options to connect to Kiwi&#39;s server: either by creating a new user account or use an already created account.</p>
+<p class="page" id="login"></p><h1>Enregistrement/Connexion (Register/Login)</h1>
+<p>Pour sauver et utiliser des documents en ligne et démarrer une collaboration, vous devez d'abord vous connecter. Il y a deux possibilités pour se connecter à un serveur Kiwi : soit en créant un nouveau compte soit en utilisant un compte existant.</p>
 <p><img alt="register/login" src="./img/auth_signup_signin.png" width="600px" class="centered"/></p>
-<h3 id="register">Register</h3>
-<p>To create an account, click on <strong>Register</strong> under the <strong>Account</strong> menu. A register window appears. Enter your username, your email address and your password. After clicking the <strong>register</strong> button, you will receive an email with a temporary link to validate your account. Check that mail then</p>
-<h3 id="login">Login</h3>
-<p>To connect to an existing user account, click on <strong>login</strong> in the <strong>Account</strong> menu. A login window shows up. Enter your email address or username and your password.</p>
-<h3 id="password-reset">Password Reset</h3>
-<p>Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser en utilisant votre adresse mail en clickant sur le bouton <strong>Forgot password</strong> (oubli du mot de passe).</p>
+<h3 id="register">Enregistrement (Register)</h3>
+<p>Pour créer un compte, cliquez sur <strong>Register</strong> dans le menu <strong>Account</strong>. Une fenêtre d'enregistrement apparait. Entrez votre nom d'utilisateur, votre adresse mail et votre mot de passe. Après avoir cliqué sur le bouton <strong>register</strong>, vous allez recevoir un mail avec un lient temporaire pour valider votre compte. Ouvrez ce mail puis</p>
+<h3 id="login">Connexion (login)</h3>
+<p>Pour se connecter avec un compte existant, cliquez sur <strong>login</strong> dans le menu <strong>Account</strong>. Une fenêtre de connexion apparait. Entrez votre adresse mail ou votre nom d'utilisateur et votre mot de passe.</p>
+<h3 id="password-reset">Réinitialisation du mot de passe</h3>
+<p>Si vous avez oublié votre mot de passe, vous pouvez le réinitialiser en utilisant votre adresse mail en cliquant sur le bouton <strong>Forgot password</strong> (oubli du mot de passe).</p>
 <p><img alt="reset password" src="./img/auth_token_reset_password.png" width="600px" class="centered"/></p>
 <p>Vous allez recevoir un email contenant le jeton à fournir avec votre nouveau mot de passe pour le réinitialiser.</p>
 <h3 id="network-settings">Paramètres réseau</h3>
@@ -952,7 +952,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <th>Objet</th>
 <th>Description</th>
 <th style="text-align:center">Alias</th>
-<th style="text-align:center">Shortcut</th>
+<th style="text-align:center">Raccourcis</th>
 </tr>
 </thead>
 <tbody>
@@ -1090,7 +1090,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <th>Object</th>
 <th>Description</th>
 <th style="text-align:center">Alias</th>
-<th style="text-align:center">Shortcut</th>
+<th style="text-align:center">Raccourcis</th>
 </tr>
 </thead>
 <tbody>
