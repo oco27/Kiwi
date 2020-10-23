@@ -774,7 +774,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
             <div class="nav-inner" id="scroll-spy" style="width: min-content; overflow: auto; top: 60px; bottom: 0; padding 10px 0 10px 0;">
               <span class="toc"></span>
               <h3 id="getting-started">Getting Started</h3>
-<ul class="nav"><li class="active"><a href="#presentation">Présentation</a></li><li><a href="#installing">Installation</a></li><li><a href="#quick-tour">Quick Tour</a></li><li><a href="#patching">Patching</a></li><li><a href="#login">Register/Login</a></li><li><a href="#collaborate">Collaboration</a></li></ul><h3 id="details">Détails</h3>
+<ul class="nav"><li class="active"><a href="#presentation">Présentation</a></li><li><a href="#installing">Installation</a></li><li><a href="#quick-tour">Aperçu</a></li><li><a href="#patching">Patching</a></li><li><a href="#login">Register/Login</a></li><li><a href="#collaborate">Collaboration</a></li></ul><h3 id="details">Détails</h3>
 <ul class="nav"><li><a href="#help-patches">Objets</a></li><li><a href="#objects-list">Liste des objets</a></li><li><a href="#examples">Exemples</a></li><li><a href="#shortcuts">Raccourcis</a></li></ul>
               
             </div>
@@ -784,7 +784,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 
         <div class="col-md-9">
 <p class="page" id="presentation"></p><h1>Présentation</h1>
-<p>Kiwi est un environnement graphique de programmation dédié à la musique et à la création sonore, come <a href="https://cycling74.com">Max</a> ou <a href="https://puredata.info/">Pure Data</a>, mais il offre une approche collaborative en temps réel: Kiwi permet à plusieurs utilisateurs distants de travailler simultanément sur un même espace de travail (patch) hébergé en ligne.</p>
+<p>Kiwi est un environnement graphique de programmation dédié à la musique et à la création sonore, comme <a href="https://cycling74.com">Max</a> ou <a href="https://puredata.info/">Pure Data</a>, mais il offre une approche collaborative en temps réel: Kiwi permet à plusieurs utilisateurs distants de travailler simultanément sur un même espace de travail (patch) hébergé en ligne.</p>
 <p><img alt="Kiwi Screenshot" src="./img/kiwi_screenshot.png" width="800px" class="centered"/></p>
 <p>Kiwi fait parti du projet <a href="http://musicoll.mshparisnord.org/">MUSICOLL</a> financé par l'ANR qui réuni le <a href="http://cicm.mshparisnord.org/">CICM</a> et <a href="https://www.ohmforce.com/">OhmForce</a>. 
 L'objectif principale de ce projet est d'étudier comment la collaboration peut améliorer la façon d'apprendre la composition musicale numérique et plus généralement comment cela peut changer la pratique de la création musicale.</p>
@@ -792,7 +792,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <h2 id="download">Téléchargement</h2>
 <p>Vous pouvez télécharger la dernière version de Kiwi application depuis cet emplacement <a href="https://github.com/Musicoll/Kiwi/releases/latest"> dans le dépot du projet</a>.</p>
 <h2 id="compatibility">Compatibilité</h2>
-<p>Kiwi est compatible avec les trois princiapaux systèmes d'exploitation :</p>
+<p>Kiwi est compatible avec les trois principaux systèmes d'exploitation :</p>
 <table>
 <thead>
 <tr>
@@ -822,14 +822,14 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <p>Vous devrez peut-être autoriser/débloquer Kiwi sous Mac ou désactiver votre antivirus pour l'installer sous Windows.</p>
 </blockquote>
 <h2 id="installing">Installation</h2>
-<p>Une fois téléchargée, l'archive peut être décompressée en double cliquant dessus. Un sous-répertoire Kiwi est créé et contient l'application. Sous Mac et Linux, copier l'application dans le répertoire des applications (<code>Application</code> sous Mac ou dans <code>/usr/bin</code> sous linux). Les utilisateurs de Windows peuvent lancer l'installeur.</p>
+<p>Une fois téléchargée, l'archive peut être décompressée en double cliquant dessus. Un sous-répertoire Kiwi est créé et contient l'application. Sous Mac et Linux, copier l'application dans le répertoire des applications (<code>Application</code> sous Mac ou dans <code>/usr/bin</code> sous linux). Les utilisateurs de Windows peuvent lancer l'installateur.</p>
 <p>Vous trouverez dans l'application une liste de <a href="#objects-list"> patches d'aide </a> qui montrent des cas d'utilisations des différents objets ainsi que des <a href="#examples">exemples</a>.</p>
-<p class="page" id="quick-tour"></p><h1>Quick Tour</h1>
-<p>Quand Kiwi est lancé, deux fenêtres apparaissent : le Navigateur de Document et la Console Kiwi.</p>
+<p class="page" id="quick-tour"></p><h1>Aperçu</h1>
+<p>Quand Kiwi est lancé, deux fenêtres apparaissent : le Navigateur de Documents et la Console Kiwi.</p>
 <p><img alt="DocumentBrowser" src="./img/emptyDocumentBrowser.png" width=300px/>
 <img alt="Kiwi Console" src="./img/console_explained.png" width=400px></p>
 <p>La Console Kiwi affiche les messages en provenance de l'application ou des patches chargés. Vous pouvez accéder à la console depuis le menu <code>Window/Console</code> ou en tempant <code>cmd</code> + <code>k</code> sous Mac ou <code>ctrl</code> + <code>k</code> sous Windows ou Linux. Des messages peuvent être envoyé depuis un patche vers la console grâce à l'objet <em>print</em>.</p>
-<p>La fenêtre du navigateur de document permet de voir, créer ou rejoindre des patches distant hébergés en ligne. Pour voir les documents hébergées vous devez d'abord vous logguer.</p>
+<p>La fenêtre du navigateur de documents permet de voir, créer ou rejoindre des patches distant hébergés en ligne. Pour voir les documents hébergées vous devez d'abord vous logguer.</p>
 <blockquote>
 <p>Voir la section <a href="#login">Register/login</a>.</p>
 </blockquote>
@@ -932,7 +932,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 </tbody>
 </table>
-<p>Si vous souhaitez partager des doonées d'un patch avec d'autres utilisateurs ou pour synchroniser des objets graphiques, vous pouvez le faire via un objet specific appelé un <strong>hub</strong> qui diffuse des messages à tous les utilisateurs connectés à un même document à travers le serveur.</p>
+<p>Si vous souhaitez partager des données d'un patch avec d'autres utilisateurs ou pour synchroniser des objets graphiques, vous pouvez le faire via un objet specific appelé un <strong>hub</strong> qui diffuse des messages à tous les utilisateurs connectés à un même document à travers le serveur.</p>
 <p><img alt="Using the kiwi hub object" src="./img/hub_server_communication.png" width="600" class="centered"/></p>
 <blockquote>
 <p>Ouvrez le patch d'aide <strong>hub</strong> dans le menu Help (Aide) pour plus d'informations</p>
@@ -988,31 +988,31 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>select</strong></td>
-<td>Ouput bang if receive matching input</td>
+<td>Envoi un "bang" si l'objet reçoit une commande qui correspond à son contenu sur son entrée</td>
 <td style="text-align:center"><em>sel</em></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>random</strong></td>
-<td>Ouput random number in a uniform distribution</td>
+<td>Envoi un nombre aléatoire selon une distribution uniforme sur la sortie</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>pack</strong></td>
-<td>Create and outputs a list of messages</td>
+<td>Créé et génère une liste de messages sur la sortie</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>unpack</strong></td>
-<td>Access elements in a list</td>
+<td>Accède aux éléments d'une liste</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>trigger</strong></td>
-<td>Trigger events based on received data</td>
+<td>Génère de nouveaux événements en fonction des données reçues sur l'entrée</td>
 <td style="text-align:center"><em>t</em></td>
 <td style="text-align:center"></td>
 </tr>
@@ -1024,55 +1024,55 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>loadmess</strong></td>
-<td>Output arguments as message when the patch is loaded</td>
+<td>Envoi les arguments sous forme de messages lors du chargement du patch</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>delay</strong></td>
-<td>Delay messages as bang</td>
+<td>Retarde les messages reçu sous forme de "bang"</td>
 <td style="text-align:center"><em>del</em></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>pipe</strong></td>
-<td>Delay any message</td>
+<td>Retarde tous les types de messages</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>metro</strong></td>
-<td>Output bang at regular time interval</td>
+<td>Génère un "bang" à un intervalle régulier</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>scale</strong></td>
-<td>Convert a number from one range into another range</td>
+<td>Converti un nombre d'une échelle à une autre</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>gate</strong></td>
-<td>Route message to selected output</td>
+<td>Redirige un message vers une sélection de sorties</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>switch</strong></td>
-<td>Output message receive in selected inlet</td>
+<td>En fonction de la valeur reçu sur la première entrée, choisi l'une des autres entrées</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>clip</strong></td>
-<td>Clip a number between a maximum and a minimum value</td>
+<td>Limite un nombre en entrée à une valeur située entre une valeur maximale et une valeur minimale</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>float</strong></td>
-<td>Store a float value</td>
+<td>Enregistre une valeur flottante</td>
 <td style="text-align:center"><em>f</em></td>
 <td style="text-align:center"></td>
 </tr>
@@ -1083,11 +1083,11 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 </tbody>
 </table>
-<h3 id="gui-objects">GUI Objects</h3>
+<h3 id="gui-objects">Objets graphiques</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 <th style="text-align:center">Alias</th>
 <th style="text-align:center">Raccourcis</th>
@@ -1096,273 +1096,273 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <tbody>
 <tr>
 <td><strong>message</strong></td>
-<td>Send messages or list of messages</td>
+<td>Envoi des messages ou une liste de messages</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>slider</strong></td>
-<td>Graphical slider sending values between 0 and 1</td>
+<td>Curseur graphique envoyant des valeurs comprises entre 0 et 1</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>s</code></td>
 </tr>
 <tr>
-<td><strong>toggle</strong></td>
-<td>A switch button</td>
+<td><strong>toggle</td>
+<td>Un bouton interrupteur</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>t</code></td>
 </tr>
 <tr>
 <td><strong>bang</strong></td>
-<td>Send a bang message</td>
+<td>Envoi un message "bang"</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>b</code></td>
 </tr>
 <tr>
 <td><strong>meter~</strong></td>
-<td>A peak amplitude vu meter</td>
+<td>Vu-mètre</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>comment</strong></td>
-<td>Add a comment to the patch</td>
+<td>Ajoute un commentaire au patch</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>c</code></td>
 </tr>
 <tr>
 <td><strong>number~</strong></td>
-<td>Display audio samples values</td>
+<td>Affiche les valeurs d'un échantillon audio</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"></td>
 </tr>
 <tr>
 <td><strong>number</strong></td>
-<td>Display a number</td>
+<td>Affiche un nombre</td>
 <td style="text-align:center"></td>
 <td style="text-align:center"><code>i</code>/<code>f</code></td>
 </tr>
 </tbody>
 </table>
-<h3 id="operators">Operators</h3>
+<h3 id="operators">Opérateurs</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>+</strong></td>
-<td>Add two numbers</td>
+<td>Ajoute deux nombres</td>
 </tr>
 <tr>
 <td><strong>*</strong></td>
-<td>Multiply two numbers</td>
+<td>Multiplie deux nombres</td>
 </tr>
 <tr>
 <td><strong>%</strong></td>
-<td>Compute the modulo of number in desired basis</td>
+<td>Calcul le modulo d'un nombre dans la base spécifiée</td>
 </tr>
 <tr>
 <td><strong>pow</strong></td>
-<td>Compute exponentiation of a number</td>
+<td>Calcul la puissance d'un nombre</td>
 </tr>
 <tr>
 <td><strong>==</strong></td>
-<td>Equality operator</td>
+<td>Opérateur d'égalité</td>
 </tr>
 <tr>
 <td><strong>!=</strong></td>
-<td>Inequality operator</td>
+<td>Opérateur d'inégalité</td>
 </tr>
 <tr>
 <td><strong>&gt;=</strong></td>
-<td>Greater than operator</td>
+<td>Supérieur ou égale à</td>
 </tr>
 <tr>
 <td><strong>&gt;</strong></td>
-<td>Strictly greater than operator</td>
+<td>Supérieur à</td>
 </tr>
 <tr>
 <td><strong>&lt;=</strong></td>
-<td>Lesser than operator</td>
+<td>Inférieur ou égale à </td>
 </tr>
 <tr>
 <td><strong>&lt;</strong></td>
-<td>Strictly lesser than operator</td>
+<td>Inférieur à</td>
 </tr>
 <tr>
 <td><strong>/</strong></td>
-<td>Divide two numbers</td>
+<td>Divise deux nombres</td>
 </tr>
 <tr>
 <td><strong>-</strong></td>
-<td>Substract two numbers</td>
+<td>Soustrait deux nombres</td>
 </tr>
 </tbody>
 </table>
-<h3 id="signal">Signal</h3>
+<h3 id="signal">Signaux</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>line~</strong></td>
-<td>Generate an audio ramp signal</td>
+<td>Génère un signal audio en forme de rampe</td>
 </tr>
 <tr>
 <td><strong>noise~</strong></td>
-<td>A white noise generator</td>
+<td>Génère un bruit blanc</td>
 </tr>
 <tr>
 <td><strong>sah~</strong></td>
-<td>Samples and holds an input signal</td>
+<td>Echantillone et tiens (Samples and holds) un signal audio</td>
 </tr>
 <tr>
 <td><strong>snapshot~</strong></td>
-<td>Ouput sample signal values</td>
+<td>Envoi un échantillon d'un signal en entrée sur la sortie</td>
 </tr>
 <tr>
 <td><strong>adc~</strong></td>
-<td>Receive audio signals from inputs or external devices</td>
+<td>REçoit un signal audio depuis une entrée externe</td>
 </tr>
 <tr>
 <td><strong>dac~</strong></td>
-<td>Send audio signals to outputs or external devices</td>
+<td>Envoie un signal audio sur une  sortie externe</td>
 </tr>
 <tr>
 <td><strong>osc~</strong></td>
-<td>A cosine oscillator</td>
+<td>Oscilateur cosinus</td>
 </tr>
 <tr>
 <td><strong>phasor~</strong></td>
-<td>Generate a sawtooth signal</td>
+<td>Génère un signal en dent de scie</td>
 </tr>
 <tr>
 <td><strong>sig~</strong></td>
-<td>Convert numbers into audio signals</td>
+<td>Convertit un nombre en signal audio</td>
 </tr>
 <tr>
 <td><strong>delaysimple~</strong></td>
-<td>Simple variable delay line with optional feedback value</td>
+<td>Délai variable simple avec un signal de retour optionnel</td>
 </tr>
 </tbody>
 </table>
-<h3 id="operators-signal-">Operators (signal)</h3>
+<h3 id="operators-signal-">Opérateurs sur les signaux (signal)</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>!=~</strong></td>
-<td>Signal inequality operator</td>
+<td>Différent ou égale pour les signaux</td>
 </tr>
 <tr>
 <td><strong>==~</strong></td>
-<td>Signal equality operator</td>
+<td>Egale pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&gt;=~</strong></td>
-<td>Signal superior operator</td>
+<td>Supérieur ou égale pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&gt;~</strong></td>
-<td>Signal strict superior operator</td>
+<td>Spérieur à pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&lt;=~</strong></td>
-<td>Signal inferior operator</td>
+<td>Inférieur ou égale à pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&lt;~</strong></td>
-<td>Signal strict inferior operator</td>
+<td>Inférieur à pour les signaux</td>
 </tr>
 <tr>
 <td><strong>/~</strong></td>
-<td>Divide two signals</td>
+<td>Divise deux signaux</td>
 </tr>
 <tr>
 <td><strong>-~</strong></td>
-<td>Substract two signals</td>
+<td>Soustrait deux signaux</td>
 </tr>
 <tr>
 <td><strong>*~</strong></td>
-<td>Multiply two signals</td>
+<td>Multiplie deux signaux</td>
 </tr>
 <tr>
 <td><strong>+~</strong></td>
-<td>Add two signals</td>
+<td>Ajoute deux signaux</td>
 </tr>
 </tbody>
 </table>
-<h3 id="record-and-play-sound-files">Record And play sound files</h3>
+<h3 id="record-and-play-sound-files">Lecture et enregistrement de fichiers audio</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>sf.play~</strong></td>
-<td>Play an audio file from disk</td>
+<td>Lit un fichier audio depuis le disque</td>
 </tr>
 <tr>
 <td><strong>sf.record~</strong></td>
-<td>Record an audio file on disk</td>
+<td>Enregistre un signal dans un fichier audio sur disque</td>
 </tr>
 </tbody>
 </table>
-<h3 id="collaborate">Collaborate</h3>
+<h3 id="collaborate">Collaboration</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>hub</strong></td>
-<td>Send message to other users of the same patch</td>
+<td>Envoi un message aux autres utilisateurs d'un même patch</td>
 </tr>
 </tbody>
 </table>
-<h3 id="others">Others</h3>
+<h3 id="others">Autres</h3>
 <table>
 <thead>
 <tr>
-<th>Object</th>
+<th>Objet</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>faust~</strong></td>
-<td>Edit and run FAUST code</td>
+<td>Modifie et exécute du code FAUST</td>
 </tr>
 <tr>
 <td><strong>OSC.receive</strong></td>
-<td>Receive Open Sound Control messages over UDP</td>
+<td>Reçoit des messages Open Sound Control sur UDP</td>
 </tr>
 <tr>
 <td><strong>OSC.send</strong></td>
-<td>Send Open Sound Control messages over UDP</td>
+<td>Envoi des messages Open Sound Control sur UDPSend Open Sound Control messages over UDP</td>
 </tr>
 </tbody>
 </table>
-<p class="page" id="examples"></p><h1>Examples</h1>
+<p class="page" id="examples"></p><h1>Exemples</h1>
 <p>Un ensemble d'exemples est fourni avec la documentation de Kiwi. Pour les explorer, aller dans le menu principal <code>Help/Examples</code>.</p>
 <p>Chaque exemple vous guide dans l'exploration de différents aspects de Kiwi :</p>
 <table>
