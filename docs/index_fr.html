@@ -787,7 +787,7 @@ if("undefined"==typeof jQuery)throw new Error("Bootstrap's JavaScript requires j
 <p>Kiwi est un environnement graphique de programmation dédié à la musique et à la création sonore, comme <a href="https://cycling74.com">Max</a> ou <a href="https://puredata.info/">Pure Data</a>, mais il offre une approche collaborative en temps réel: Kiwi permet à plusieurs utilisateurs distants de travailler simultanément sur un même espace de travail (patch) hébergé en ligne.</p>
 <p><img alt="Kiwi Screenshot" src="./img/kiwi_screenshot.png" width="800px" class="centered"/></p>
 <p>Kiwi fait parti du projet <a href="http://musicoll.mshparisnord.org/">MUSICOLL</a> financé par l'ANR qui réuni le <a href="http://cicm.mshparisnord.org/">CICM</a> et <a href="https://www.ohmforce.com/">OhmForce</a>. 
-L'objectif principale de ce projet est d'étudier comment la collaboration peut améliorer la façon d'apprendre la composition musicale numérique et plus généralement comment cela peut changer la pratique de la création musicale.</p>
+L'objectif principal de ce projet est d'étudier comment la collaboration peut améliorer la façon d'apprendre la composition musicale numérique et plus généralement comment cela peut changer la pratique de la création musicale.</p>
 <p class="page" id="installing"></p><h1>Installation</h1>
 <h2 id="download">Téléchargement</h2>
 <p>Vous pouvez télécharger la dernière version de Kiwi application depuis cet emplacement <a href="https://github.com/Musicoll/Kiwi/releases/latest"> dans le dépot du projet</a>.</p>
@@ -839,10 +839,10 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <blockquote>
 <p><a href="http://www.alainbonardi.net/songes/modelisation_eng.htm">Risset&#39;s bell modelling</a>, vous pouvez trouver ce patch dans les exemples.</p>
 </blockquote>
-<p>Le patch ci-dessus est issue des exemples fournis avec Kiwi. Comme vous pouvez le voir, un patch est un ensemble d'objets qui chacun produise une opération. Les commandes ou les signaux sonores sont envoyés entre les objets grâce aux liens. Les liens gris sont utilisés pour envoyés des messages (nombres, texte, listes, bang, etc...) alors que les liens noirs envoient les signaux, toujours du haut vers le bas (les signaux entrent dans un objet par les connecteurs du haut et ressortent par les connecteurs du bas).</p>
+<p>Le patch ci-dessus est issue des exemples fournis avec Kiwi. Comme vous pouvez le voir, un patch est un ensemble d'objets qui chacun produise une opération. Les commandes ou les signaux sonores sont envoyés entre les objets grâce aux liens. Les liens gris sont utilisés pour envoyer des messages (nombres, texte, listes, bang, etc...) alors que les liens noirs envoient les signaux, toujours du haut vers le bas (les signaux entrent dans un objet par les connecteurs du haut et ressortent par les connecteurs du bas).</p>
 <p>Pour créer un patch, appuyez sur <code>cmd</code>/<code>ctrl</code> + <code>n</code> ou allez dans <code>File/New Patcher</code>.</p>
-<p>Un patch peut être soit en mode <em>édition (edit)</em> soit en mode <em>jeu (play)</em>. Pour basculer entre les modes <em>édition (edit)</em> et <em>jeu (play)</em>, cliquer sur le bouton cadenas (lock)
-<img title="lock" src="./img/locked.png" height=22px/> ou appuyer sur <code>cmd</code> + <code>e</code> sur Mac (<code>ctrl</code> + <code>e</code> pour linux ou windows).</p>
+<p>Un patch peut être soit en mode <em>édition (edit)</em> soit en mode <em>jeu (play)</em>. Pour basculer entre les modes <em>édition (edit)</em> et <em>jeu (play)</em>, cliquez sur le bouton cadenas (lock)
+<img title="lock" src="./img/locked.png" height=22px/> ou appuyez sur <code>cmd</code> + <code>e</code> sur Mac (<code>ctrl</code> + <code>e</code> pour linux ou windows).</p>
 <h3 id="edit-mode">Mode édition (edit)</h3>
 <table>
 <thead>
@@ -895,7 +895,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <p>Pour sauver et utiliser des documents en ligne et démarrer une collaboration, vous devez d'abord vous connecter. Il y a deux possibilités pour se connecter à un serveur Kiwi : soit en créant un nouveau compte soit en utilisant un compte existant.</p>
 <p><img alt="register/login" src="./img/auth_signup_signin.png" width="600px" class="centered"/></p>
 <h3 id="register">Enregistrement (Register)</h3>
-<p>Pour créer un compte, cliquez sur <strong>Register</strong> dans le menu <strong>Account</strong>. Une fenêtre d'enregistrement apparait. Entrez votre nom d'utilisateur, votre adresse mail et votre mot de passe. Après avoir cliqué sur le bouton <strong>register</strong>, vous allez recevoir un mail avec un lient temporaire pour valider votre compte. Ouvrez ce mail puis</p>
+<p>Pour créer un compte, cliquez sur <strong>Register</strong> dans le menu <strong>Account</strong>. Une fenêtre d'enregistrement apparait. Entrez votre nom d'utilisateur, votre adresse mail et votre mot de passe. Après avoir cliqué sur le bouton <strong>register</strong>, vous allez recevoir un mail avec un lien temporaire pour valider votre compte. Ouvrez ce mail puis</p>
 <h3 id="login">Connexion (login)</h3>
 <p>Pour se connecter avec un compte existant, cliquez sur <strong>login</strong> dans le menu <strong>Account</strong>. Une fenêtre de connexion apparait. Entrez votre adresse mail ou votre nom d'utilisateur et votre mot de passe.</p>
 <h3 id="password-reset">Réinitialisation du mot de passe</h3>
@@ -911,7 +911,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <p class="page" id="collaborate"></p><h1>Collaboration</h1>
 <p>Dans cette section, nous allons décrire comment rejoindre un patch en ligne et collaborer avec d'autres utilisateurs. Une fois que vous êtes connecté, vous pouvez accéder aux documents distants depuis la fenêtre de l'explorateur de documents.</p>
 <p><img title="first patch" src="./img/document_browser.png" height="500" class="centered"></p>
-<p>Comme vous pouvez le voir, la fenêtre liste les documents accessibles en ligne. Ils peuvent être accéder par tous les utilisateurs connectés au même serveur. Vous pouvez télécharger, supprimer, renommer, dupliquer les patches depuis cette fenêtre en faisant un clic droit sur un élément. Il est également possible de trier les documents selon différents critères.</p>
+<p>Comme vous pouvez le voir, la fenêtre liste les documents accessibles en ligne. Ils peuvent être accédés par tous les utilisateurs connectés au même serveur. Vous pouvez télécharger, supprimer, renommer, dupliquer les patches depuis cette fenêtre en faisant un clic droit sur un élément. Il est également possible de trier les documents selon différents critères.</p>
 <p>Un double clic sur un document permet de rejoindre une session en ligne et démarrer une collaboration avec d'autres utilisateurs. Vous pouvez cliquer sur l'icône en haut à gauche du patch pour voir tous les utilisateurs qui éditent ou jouent le patch.</p>
 <p><img alt="user list popup" src="./img/patcher_connected_user_list_popup.png" width="250">
 <img alt="FM Synth collaborate" src="./img/FM_synth_collab.png" width="500"></p>
@@ -939,7 +939,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </blockquote>
 <p class="page" id="help-patches"></p><h1>Objets</h1>
 <h2 id="help-patches">Patchs d'aide</h2>
-<p>Pour voir l'aide sur un objet, sélectionner le dans le patch puis clic-droit sur l'objet et choisissez l'option Help (Aide). Cela ouvrira l'aide correspondante.</p>
+<p>Pour voir l'aide sur un objet, sélectionnez le dans le patch puis clic-droit sur l'objet et choisissez l'option Help (Aide). Cela ouvrira l'aide correspondante.</p>
 <p>Une liste des patchs d'aides décrivant chaque objet est fourni dans la documentation. Ils sont accessibles depuis le menu principal de l'application <code>Help/Objects</code>. Quelquefois, les patchs d'aide réunissent différents objets liés fonctionnellement, par exemple <em>gate</em> et <em>switch</em> ou <em>gate~</em> et <em>switch~</em>.</p>
 <p class="page" id="objects-list"></p><h1>Liste des objets</h1>
 <p>Il y a différents sortes d'objets dans Kiwi.</p>
@@ -1179,7 +1179,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>&gt;=</strong></td>
-<td>Supérieur ou égale à</td>
+<td>Supérieur ou égal à</td>
 </tr>
 <tr>
 <td><strong>&gt;</strong></td>
@@ -1187,7 +1187,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>&lt;=</strong></td>
-<td>Inférieur ou égale à </td>
+<td>Inférieur ou égal à </td>
 </tr>
 <tr>
 <td><strong>&lt;</strong></td>
@@ -1226,11 +1226,11 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 </tr>
 <tr>
 <td><strong>snapshot~</strong></td>
-<td>Envoi un échantillon d'un signal en entrée sur la sortie</td>
+<td>Envoie un échantillon d'un signal en entrée sur la sortie</td>
 </tr>
 <tr>
 <td><strong>adc~</strong></td>
-<td>REçoit un signal audio depuis une entrée externe</td>
+<td>Reçoit un signal audio depuis une entrée externe</td>
 </tr>
 <tr>
 <td><strong>dac~</strong></td>
@@ -1265,23 +1265,23 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <tbody>
 <tr>
 <td><strong>!=~</strong></td>
-<td>Différent ou égale pour les signaux</td>
+<td>Différent ou égal pour les signaux</td>
 </tr>
 <tr>
 <td><strong>==~</strong></td>
-<td>Egale pour les signaux</td>
+<td>Egal pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&gt;=~</strong></td>
-<td>Supérieur ou égale pour les signaux</td>
+<td>Supérieur ou égal pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&gt;~</strong></td>
-<td>Spérieur à pour les signaux</td>
+<td>Supérieur à pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&lt;=~</strong></td>
-<td>Inférieur ou égale à pour les signaux</td>
+<td>Inférieur ou égal à pour les signaux</td>
 </tr>
 <tr>
 <td><strong>&lt;~</strong></td>
@@ -1459,7 +1459,7 @@ L'objectif principale de ce projet est d'étudier comment la collaboration peut 
 <ul>
 <li><code>n</code> : Ajoute un objet.</li>
 <li><code>b</code> : Ajoute un objet bouton-poussoir (bang).</li>
-<li><code>t</code> : Ajoute un objet interupteur à bascule (toggle).</li>
+<li><code>t</code> : Ajoute un objet interrupteur à bascule (toggle).</li>
 <li><code>s</code> : Ajoute un objet curseur (slider).</li>
 <li><code>i</code>/<code>f</code> : Ajoute un objet nombre (number).</li>
 <li><code>c</code> : Ajoute un objet commentaire (comment).</li>
